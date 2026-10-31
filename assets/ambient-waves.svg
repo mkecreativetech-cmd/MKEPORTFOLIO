@@ -1,0 +1,71 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="ribbonOne" x1="0" y1="0" x2="1" y2=".25">
+      <stop offset="0" stop-color="#101a72" stop-opacity="0"/>
+      <stop offset=".16" stop-color="#244CFF" stop-opacity=".72"/>
+      <stop offset=".34" stop-color="#17145f" stop-opacity=".9"/>
+      <stop offset=".53" stop-color="#3210A0" stop-opacity=".96"/>
+      <stop offset=".67" stop-color="#743DFF" stop-opacity=".92"/>
+      <stop offset=".79" stop-color="#B526FF" stop-opacity=".76"/>
+      <stop offset=".91" stop-color="#182475" stop-opacity=".88"/>
+      <stop offset="1" stop-color="#111852" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ribbonTwo" x1="0" y1="0" x2="1" y2=".1">
+      <stop offset="0" stop-color="#182879" stop-opacity="0"/>
+      <stop offset=".22" stop-color="#1539c9" stop-opacity=".68"/>
+      <stop offset=".4" stop-color="#16104b" stop-opacity=".9"/>
+      <stop offset=".6" stop-color="#5120c8" stop-opacity=".9"/>
+      <stop offset=".76" stop-color="#9A2CFF" stop-opacity=".72"/>
+      <stop offset=".9" stop-color="#202276" stop-opacity=".78"/>
+      <stop offset="1" stop-color="#121949" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ribbonThree" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#09113d" stop-opacity="0"/>
+      <stop offset=".3" stop-color="#1d2db2" stop-opacity=".62"/>
+      <stop offset=".56" stop-color="#4921a9" stop-opacity=".8"/>
+      <stop offset=".78" stop-color="#7627d6" stop-opacity=".68"/>
+      <stop offset="1" stop-color="#111847" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="surfaceGlint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#536CFF" stop-opacity="0"/>
+      <stop offset=".18" stop-color="#536CFF" stop-opacity=".78"/>
+      <stop offset=".36" stop-color="#A497FF" stop-opacity=".94"/>
+      <stop offset=".48" stop-color="#F0B9FF" stop-opacity=".9"/>
+      <stop offset=".58" stop-color="#A33FFF" stop-opacity=".84"/>
+      <stop offset=".76" stop-color="#593AFF" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#536CFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lowerGlint" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4420B8" stop-opacity="0"/>
+      <stop offset=".26" stop-color="#515EFF" stop-opacity=".62"/>
+      <stop offset=".47" stop-color="#CC7BFF" stop-opacity=".84"/>
+      <stop offset=".64" stop-color="#762CFF" stop-opacity=".72"/>
+      <stop offset="1" stop-color="#4420B8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="depthLight" cx="50%" cy="48%" r="58%">
+      <stop offset="0" stop-color="#743DFF" stop-opacity=".28"/>
+      <stop offset=".55" stop-color="#3210A0" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#02030A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="850" cy="450" rx="920" ry="490" fill="url(#depthLight)"/>
+
+  <!-- Broad folded wave surfaces, with a soft glow beneath each solid gradient ribbon. -->
+  <path d="M-120 205 C35 83 144 92 258 252 C378 422 523 423 668 261 C814 98 955 92 1104 225 C1252 357 1413 429 1715 258 L1715 510 C1428 656 1245 548 1061 407 C899 282 810 302 674 430 C513 579 385 555 231 402 C100 271 19 273 -120 414 Z" fill="url(#ribbonOne)" opacity=".72"/>
+  <path d="M-120 205 C35 83 144 92 258 252 C378 422 523 423 668 261 C814 98 955 92 1104 225 C1252 357 1413 429 1715 258 L1715 510 C1428 656 1245 548 1061 407 C899 282 810 302 674 430 C513 579 385 555 231 402 C100 271 19 273 -120 414 Z" fill="url(#ribbonOne)" opacity=".9"/>
+
+  <path d="M-130 420 C83 350 222 432 393 548 C568 666 726 733 901 628 C1082 520 1217 415 1392 475 C1518 518 1618 602 1720 568 L1720 804 C1549 823 1434 739 1308 690 C1174 637 1056 706 894 811 C711 929 554 844 382 733 C220 629 77 592 -130 693 Z" fill="url(#ribbonTwo)" opacity=".66"/>
+  <path d="M-130 420 C83 350 222 432 393 548 C568 666 726 733 901 628 C1082 520 1217 415 1392 475 C1518 518 1618 602 1720 568 L1720 804 C1549 823 1434 739 1308 690 C1174 637 1056 706 894 811 C711 929 554 844 382 733 C220 629 77 592 -130 693 Z" fill="url(#ribbonTwo)" opacity=".82"/>
+
+  <path d="M-120 650 C105 578 264 640 455 755 C627 858 791 883 973 790 C1167 690 1321 599 1510 665 C1585 691 1647 728 1720 728 L1720 910 C1550 872 1455 817 1322 803 C1155 785 1062 879 890 941 C701 1009 550 932 392 845 C206 743 79 749 -120 841 Z" fill="url(#ribbonThree)" opacity=".58"/>
+
+  <!-- Broad translucent highlight bands sit on the wave surfaces; the hairline accents stay secondary. -->
+  <path d="M-110 250 C58 131 156 146 270 291 C397 453 526 452 677 291 C816 143 954 132 1098 254 C1245 379 1414 454 1705 289 L1705 314 C1415 480 1243 407 1082 282 C946 176 824 188 696 324 C524 508 384 489 245 318 C128 174 62 174 -110 301 Z" fill="url(#surfaceGlint)" opacity=".72"/>
+  <path d="M-110 250 C58 131 156 146 270 291 C397 453 526 452 677 291 C816 143 954 132 1098 254 C1245 379 1414 454 1705 289 L1705 302 C1415 467 1244 393 1088 270 C949 162 821 174 686 307 C526 484 389 471 253 304 C134 160 59 164 -110 287 Z" fill="url(#surfaceGlint)" opacity=".58"/>
+  <path d="M-110 493 C94 401 235 478 407 593 C576 706 730 773 910 668 C1092 561 1220 464 1386 520 C1503 559 1613 646 1710 617 L1710 641 C1608 670 1501 584 1378 546 C1217 496 1091 594 924 694 C731 810 568 743 392 625 C225 513 96 441 -110 523 Z" fill="url(#lowerGlint)" opacity=".46"/>
+
+  <!-- A few fine filaments add scale without becoming the primary wave treatment. -->
+  <path d="M-100 535 C132 420 259 514 418 622 C592 740 755 802 925 695 C1097 587 1235 492 1400 554 C1522 600 1614 674 1700 648" fill="none" stroke="url(#surfaceGlint)" stroke-width="1.2" opacity=".34"/>
+  <path d="M-100 558 C127 444 264 535 431 647 C600 760 755 823 938 712 C1112 606 1240 520 1409 577 C1520 614 1613 699 1700 676" fill="none" stroke="url(#lowerGlint)" stroke-width=".8" opacity=".28"/>
+</svg>
